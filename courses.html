@@ -1,0 +1,132 @@
+<!-- courses.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Aakash Kapadia - Courses</title>
+  <script>
+    function toggleTheme() {
+      const body = document.body;
+      body.classList.toggle("dark-theme");
+    }
+  </script>
+</head>
+<body>
+  <header>
+    <img src="C:\Users\Admin\Downloads\profile.jpg" alt="Aakash Kapadia's Photo" class="profile-image">
+    <h1>Aakash Kapadia</h1>
+    <nav>
+      <button><a href="index.html">Home</a></button>
+      <button><a href="about.html">About Me</a></button>
+      <button><a href="courses.html">Courses</a></button>
+    </nav>
+    <button onclick="toggleTheme()">Toggle Theme</button>
+  </header>
+
+  <main>
+    <div id="content">
+      <h2>Courses</h2>
+
+      <!-- Table for YouTube Videos -->
+      <table border="1">
+        <thead>
+          <tr>
+            <th>Title</th>
+            <th>Video</th>
+          </tr>
+        </thead>
+        <tbody>
+          <!-- Video 1 -->
+          <tr>
+            <td>Introduction to Machine Learning</td>
+            <td>
+              <iframe
+                width="560"
+                height="315"
+                src="https://www.youtube.com/embed/LfaMVlDaQ24?si=c5DnSLQRyXHeSGEc"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+            </td>
+          </tr>
+
+          <!-- Video 2 -->
+          <tr>
+            <td>Data Structures and Algorithms in Python</td>
+            <td>
+              <iframe
+                width="560"
+                height="315"
+                src="https://www.youtube.com/embed/8hly31xKli0?si=8szh0GFKNhrUvRI-"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+            </td>
+          </tr>
+
+          <!-- Video 3 -->
+          <tr>
+            <td>Web Development with HTML, CSS, and JavaScript</td>
+            <td>
+              <iframe
+                width="560"
+                height="315"
+                src="https://www.youtube.com/embed/B31LgI4Y4DQ?si=XnWgyf16-d6aQBKc"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+            </td>
+          </tr>
+
+          <!-- Video 4 -->
+          <tr>
+            <td>Database Design and SQL Fundamentals</td>
+            <td>
+              <iframe
+                width="560"
+                height="315"
+                src="https://www.youtube.com/embed/VPvVD8t02U8?si=83i7_GLyYUKFmyF-"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+            </td>
+          </tr>
+
+          <!-- Video 5 -->
+          <tr>
+            <td>Introduction to Python Programming</td>
+            <td>
+              <iframe
+                width="560"
+                height="315"
+                src="https://www.youtube.com/embed/zJSY8tbf_ys?si=MACThX3UuYmnQ3ly"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+
+      <!-- Add additional content related to courses below the table -->
+      <p>This section will contain information about the courses you've taken or are currently taking.</p>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2023 Aakash Kapadia</p>
+  </footer>
+</body>
+</html>
